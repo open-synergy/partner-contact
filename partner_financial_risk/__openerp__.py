@@ -5,7 +5,7 @@
 {
     'name': 'Partner Financial Risk',
     'summary': 'Manage partner risk',
-    'version': '8.0.1.1.1',
+    'version': '8.0.2.0.0',
     'category': 'Sales Management',
     'license': 'AGPL-3',
     'author': 'Tecnativa, '
