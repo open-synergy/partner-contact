@@ -96,7 +96,7 @@ class ResPartner(models.Model):
         """
         for record in self:
             id_number = record.id_numbers.filtered(
-                lambda r: r.category_id.code == category_code
+                lambda r: r.category_id.code == category_code and r.status == "open"
             )
             record_len = len(id_number)
             # Record for category is not existent.
